@@ -1,0 +1,162 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none; color: #111; display: block;}
+
+.warp{
+    width: 1660px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 120px;
+}
+header .logo{
+    float: left;
+    margin-left: 60px;
+    width: 240px;
+}
+header .logo img{
+    width: 100%;
+}
+header nav{
+    float: left;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    font-size: 20px;
+    padding: 5px 30px;
+}
+header nav ul li a:hover{
+    color: #ccc;
+}
+section{
+    width: 100%;
+}
+section .visual{
+    width: 100%;
+    height: 840px;
+    margin-bottom: 120px;
+}
+section .set ul li{
+    float: left;
+    width: 530px;
+    margin-left: 60px;
+    margin-right: 35px;
+}
+section .set ul li:last-child{
+    margin-right: 0;
+}
+section .set ul li img{
+    width: 100%;
+}
+section .set ul li span{
+    color: #888;
+    margin-top: 20px;
+    font-size: 16px;
+}
+section .set ul li p{
+    line-height: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+section .new{
+    width: 100%;
+    height: 93vw;
+    position: relative;
+    margin-left: 60px;
+}
+section .new>div{
+    float: left;
+}
+section .new .photo{
+    width: 1095px;
+    height: 1000px;
+    margin-right: 35px;
+}
+section .new .des{
+    width: 530px;
+    height: 1000px;
+    padding-top: 350px;
+    box-sizing: border-box;
+}
+section .new .des span{
+    color: #888;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+}
+section .new .des p{
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}
+section .new .des hr{
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50px;
+}
+section .menu{
+    width: 100%;
+    margin-left: 60px;
+    clear: both;
+    /*float: left; 해제*/
+}
+section .menu ul li{
+    float: left;
+    width: 390px;
+    margin-right: 75px;
+}
+section .menu ul li a span{
+    color: #888;
+    font-size: 15px;
+}
+section .menu ul li:nth-child(4n){
+    margin-right: 0;
+}
+section .menu ul li a{
+    margin-top: 35px;
+}
+section .menu ul li h4{
+    line-height: 50px;
+}
+section .menu ul li p{
+    font-size: 16px;
+}
+footer .sns{
+    width: 100%;
+    height: 500px;
+    float: left;
+    margin-left: 60px;
+}
+/*.menu ul li중에서 마지막4개 아래여백 120px
+li:last-child(4) 적기*/
+footer{
+    margin: 0 auto;
+}
+footer .sns hr{
+    width: 1660px;
+    margin-top: 200px;
+}
+footer .sns ul li{
+    float: left;
+    margin-top: 100px;
+    margin-right: 60px;
+}
+footer address{
+    clear: both;
+    float: left;
+    margin-left: 60px;
+    line-height: 30px;
+    margin-bottom: 60px;
+    font-style: normal;
+    font-size: 15px;
+}
